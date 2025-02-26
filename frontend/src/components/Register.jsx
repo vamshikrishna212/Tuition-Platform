@@ -1,12 +1,11 @@
 import React from 'react'
-import { useState } from 'react'
 import StudentRegister from './StudentRegister'
 import TeacherRegister from './TeacherRegister'
 
 
 
-function Register() {
-    const [role, setRole] = useState('');
+function Register({ role, setRole }) {
+
     return (
         <div className='w-100 flex flex-col items-center justify-around'>
             {/* <h2 className='text-lg absolute left-5 top-2'>Register</h2> */}
